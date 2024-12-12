@@ -33,13 +33,36 @@ main {
     padding: 10px;
     border: #fce115 solid 1px;
     outline: none;
+    min-width: 200px;
 }
 
 .btn-calc {
     border-radius: 5px;
-    padding: 5px;
+    border: #fce115 2px solid;
+    padding: 8px;
     min-width: 100px;
     color: #fff;
-    background-color: black;
-    
+    background-color: #000;
+    margin: 30px;
+    font-weight: bold;
+}
+.btn-calc:hover {
+    border-radius: 5px;
+    padding: 8px;
+    border: #000 2px solid;
+    min-width: 100px;
+    color: #000;
+    background-color: #fce115;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-calc:active {
+    border-radius: 5px;
+    border: #fce115 2px solid;
+    padding: 8px;
+    min-width: 100px;
+    color: #000;
+    background-color: transparent;
+    font-weight: bold;
 }
